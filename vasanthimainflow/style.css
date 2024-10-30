@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #00ffff; /* Light blue background */
+}
+
+header {
+    background-color: #000000; /* Teal */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background-image: url('https://theideaslab.com/wp-content/uploads/2024/01/TLM-Feature-Image-8.png'); /* Replace with your image */
+    background-size: cover;
+    font-size:28px;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    height:1500px;
+}
+
+.cta-button {
+    background-color: #ff5722
+
